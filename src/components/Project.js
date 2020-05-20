@@ -3,7 +3,7 @@ import React from "react";
 function Project(props) {
     return (
         <div className="card">
-            <img src={process.env.PUBLIC_URL + "/Headshot2.jpg"} ClassName="card-img-top" alt={props.alt} />
+            <img src={process.env.PUBLIC_URL + props.image} ClassName="card-img-top" alt={props.alt} />
             <div ClassName="card-body">
                 <h5 ClassName="card-title">{props.title}</h5>
                 <p ClassName="card-text">{props.text}</p>
