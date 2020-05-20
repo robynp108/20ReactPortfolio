@@ -4,7 +4,6 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./components/pages/Home";
 // import Portfiolio from "./components/pages/Portfolio";
-// import Contact from "./components/pages/Contact";
 
 function App() {
   return (
@@ -12,8 +11,8 @@ function App() {
       <div>
         <Header />
         <Route exact path="/" component={Home} />
-        {/* <Route exact path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} /> */}
+        <Route exact path="/react-portfolio" component={Home} />
+        {/* <Route exact path="/portfolio" component={Portfolio} /> */}
         <Footer />
       </div>
     </Router>

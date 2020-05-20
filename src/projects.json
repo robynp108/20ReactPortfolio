@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "CO-VIRAL App",
+        "image": "/HomeMobileShort.PNG",
+        "alt": "virus image with text overlay",
+        "text": "A group project to create a resource for reliable information during the COVID-19 pandemic.",
+        "deployed": "https://robynp108.github.io/CO-VIRAL-Group-5/",
+        "repo": "https://github.com/robynp108/CO-VIRAL-Group-5.git"
+    },
+    {
+        "id": 2,
+        "title": "Stay Home Activity Finder",
+        "image": "/StayHomeScreenshot.png",
+        "alt": "App screenshot recipe finder and workouts",
+        "text": "This app finds recipes and exercises that work with what a user already has at home.",
+        "deployed": "https://team1-project2.herokuapp.com/",
+        "repo": "https://github.com/cynthia-dm1216/Group1-stayHomeWellness.git"
+    },
+    {
+        "id": 3,
+        "title": "Work Day Scheduler",
+        "image": "/PlannerScreenshot.png",
+        "alt": "app screenshot day planner",
+        "text": "An app that will save events in one hour time blocks for the work day.",
+        "deployed": "https://robynp108.github.io/Work-Day-Scheduler/",
+        "repo": "https://github.com/robynp108/Work-Day-Scheduler.git"
+    },
+    {
+        "id": 4,
+        "title": "Weather Dashboard",
+        "image": "/WeatherDashboardScreenshot.png",
+        "alt": "App screenshot weather data display",
+        "text": ">A simple app that displays the current day and 5 day weather information for a city.",
+        "deployed": "https://robynp108.github.io/Weather-Dashboard/",
+        "repo": "https://github.com/robynp108/Weather-Dashboard.git"
+    },
+]
