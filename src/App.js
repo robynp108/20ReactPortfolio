@@ -6,9 +6,17 @@ import Home from "./components/pages/Home";
 import Portfolio from "./components/pages/Portfolio";
 
 function App() {
+  const styles = {
+    display: "flex",
+    minHeight: "100vh",
+    padding: 5,
+    flexDirection: "column",
+    backgroundColor: "#D2B48C",
+    bottom: "50px"
+  }
   return (
     <Router>
-      <div>
+      <div className="container" style={styles}>
         <Header />
         <Route exact path="/" component={Home} />
         <Route exact path="/react-portfolio" component={Home} />

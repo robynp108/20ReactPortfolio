@@ -1,9 +1,15 @@
 import React from "react";
 
 function Project(props) {
+    const styles = {
+        width: "40rem",
+        padding: "10px",
+        margin: 10,
+        flex: 1
+    }
     return (
-        <div className="card">
-            <img src={process.env.PUBLIC_URL + props.image} ClassName="card-img-top" alt={props.alt} />
+        <div className="card" style={styles}>
+            <img src={process.env.PUBLIC_URL + props.image} className="card-img-top" alt={props.alt} />
             <div ClassName="card-body">
                 <h5 ClassName="card-title">{props.title}</h5>
                 <p ClassName="card-text">{props.text}</p>

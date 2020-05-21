@@ -2,15 +2,17 @@ import React from "react";
 
 const styles = {
     footerStyle: {
-        position: "fixed",
         bottom: 0,
-        width: "100%"
+        width: "100%",
+        height: "50px",
+        marginTop: "auto",
+        backgroundColor: "#AED6F1"
     }
 }
 
 function Footer() {
     return (
-        <div className="card-footer text-muted" style={styles.footerStyle}>
+        <div style={styles.footerStyle}>
             Robyn Palmer- Web Developer
         </div>
     );

@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
     return (
-        <div class="container">
+        <div class="container" style={{flex: "1"}}>
             <div class="row">
                 <div class="col-lg-12" id="box">
                     <header>
